@@ -1,0 +1,26 @@
+
+
+
+<form action=""  method="get">
+<label for="myfile">Select a file:</label>
+<input type="file" id="myfile" name="myfile">
+<button type="submit">
+    submit
+    </button> 
+</form> 
+
+
+<div class="main"> 
+  
+    {% for data in result %}. 
+  
+    {{ data.title }}<br/> 
+    {{ data.description }}<br/> 
+    <hr/> 
+  
+    {% endfor %} 
+  
+</div> 
+
+
+

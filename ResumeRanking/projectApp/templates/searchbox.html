@@ -1,0 +1,25 @@
+
+<form action = "" method = "get"> 
+    <input  type="text" name="q" placeholder="search"></input>
+    
+    <button type="submit">
+    search
+    </button> 
+    
+    
+     
+</form> 
+
+<div class="main"> 
+  
+    {% for data in result %}. 
+  
+    {{ data.title }}<br/> 
+    {{ data.description }}<br/> 
+    <hr/> 
+  
+    {% endfor %} 
+  
+</div> 
+
+

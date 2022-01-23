@@ -1,0 +1,13 @@
+{% for data in dataset %}. 
+{{ data.title }}<br/> 
+{% endfor %} 
+
+
+{% if dataset.has_previous %}
+<a href ="{% url 'listjd' %}?page={{dataset.previous_page_number}}">previous</a>
+{% endif %} 
+
+
+{% if dataset.has_next %}
+<a href ="{% url 'listjd' %}?page={{dataset.next_page_number}}">next</a>
+{% endif %} 

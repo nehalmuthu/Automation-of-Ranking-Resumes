@@ -1,0 +1,29 @@
+
+
+
+<form method="POST">
+{% csrf_token %}
+{% for data in dataset %} 
+  <input type="radio"  name="title" value={{data.document}}>
+  <label for="male">{{data.title}}</label><br>
+    {% endfor %} 
+
+    <button type="submit">
+    search
+    </button> 
+    
+ </form>    
+     
+<div class="main"> 
+  
+    {% for data in dataset %}. 
+  
+    {{ data.title }}<br/> 
+<a href="E:/irpackage/django_Practice/projectName/"+{{ data.document }} download>{{ data.document }}</a>
+
+    <br/> 
+
+    {% endfor %} 
+  
+</div> 
+
