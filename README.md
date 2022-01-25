@@ -9,7 +9,7 @@
 - Resumes and Job descriptions are collected from indeed.com and linkedIn. 
 - Also job reviews are scraped from ambitionbox.com. Also data related to the selected candidates  are available which is used for further analysis
 
-## Tool
+## Tools
 - Django framework is used to build the user interface.
 - BeautifulSoup in python is used for scrapping documents from websites.
 - NLTk and Spacy libraries are use to process documents.
