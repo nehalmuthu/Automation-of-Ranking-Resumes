@@ -1,0 +1,6 @@
+django
+pdfminer
+nltk
+rank_bm25
+codec
+spacy
