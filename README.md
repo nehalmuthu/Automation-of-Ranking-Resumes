@@ -72,3 +72,13 @@ In Phase 3 we improved the model by working on 3 major aspects: Vectorization, I
     - Models are evaluated using precision @R 
     - For the base model we got precision@R value of 32%
     - After adapting research paper and implementing them, we improved precision@R to 71%.
+
+
+## Run the Code:
+- Create a virtual environment for installing dependencies. [creating venv](https://www.geeksforgeeks.org/create-virtual-environment-using-venv-python/?ref=rp)
+- Install dependencies from requirements.txt
+- Run the djando framework. [run django](https://www.geeksforgeeks.org/django-basics/) 
+
+
+
+
